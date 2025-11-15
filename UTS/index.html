@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Project UAS</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+</head>
+<body>
+
+    <header>
+       <h1>Royal Dashboard</h1>
+       <input type="text" placeholder="Cari Kelas, Dokumen, Aktifitas dll... ">   
+    </header>
+
+    <main>  
+        <div class="nav">
+            <div onclick="reset()"><a>Home</a></div>
+            <div onclick="GantiNama()"><a>Mahasiswa</a></div>
+            <div onclick="GantiKelas()"><a>Kelas</a></div>
+            <div><a>Aktivitas</a></div>
+            <div><a>Statistik</a></div>
+            <div><a>Dokumen</a></div>
+            <div><a style="color: #A9F3FD;">Settings</a></div>
+            <div><a style="color: #F9AD83;">Sign Out</a></div>
+        </div>
+
+        <div class="main">
+            <div>
+                <h1 id="nama">Selamat Datang, Nama Mahasiswa</h1><h1 id="kelas">Kelas 00-00</h1>
+                <p>Kamu memiliki Statistik, 3 Progres Kelas, 4  Aktifitas Selanjutnya dan 3 Lampiran
+                Dokumen yang ada pada aplikasi ini.</p>
+            </div>
+            <div id="gambar">
+                <img src="Rusdinus.jpeg" alt="">
+            </div> 
+        </div>
+
+        <div class="aside">
+            <h3>Statistik Mahasiwa</h3>
+            <img src="Chart.svg" alt="">
+        </div>
+
+        <div class="section1">
+            <h3>progres kelas</h3>
+            <div>
+                <h5>Mata kuliah A</h5>
+                <p>78 Pendaftar</p>
+            </div>
+            <div>
+                <h5>Mata kuliah B</h5>
+                <p>30 Pendaftar</p>
+            </div>
+            <div>
+                <h5>Mata kuliah C</h5>
+                <p>40 Pendaftar</p>
+            </div>
+            <div>
+                <h5>Mata kuliah D</h5>
+                <p>10 Pendaftar</p>
+            </div>     
+        </div>
+
+        <div class="section2">
+            <h3>Aktivitas Selanjutnya</h3>
+            <div>
+                <h5>Perkuliahan Daring 1</h5>
+                <p>Senin, 15 Januari 2025</p>
+            </div>
+            <div>  
+                <h5>Perkuliahan Daring 2</h5>
+                <p>Selasa, 15 Februari 2025</p>
+            </div>
+            <div>
+                <h5>Perkuliahan Daring 3</h5>
+                <p>Rabu, 15 Maret 2025</p>
+            </div>
+            <div>
+                <h5>Perkuliahan Daring 4</h5>
+                <p>Kamis, 15 April 2025</p>
+            </div>
+        </div>
+
+        <div class="footer">
+            <h3>Lampiran</h3>
+            <div>
+                <p class="p">Lampiran Dokumen 1 -</p>
+                <p>Matakuliah A | Tugas Bersama Perkuliahan Daring |</p>
+                <a href="">Lihat Dokumen</a>
+            </div>
+            <div>  
+                <p class="p">Lampiran Dokumen 2 -</p>
+                <p>Matakuliah B | Tugas Bersama Perkuliahan Daring |</p>
+                <a href="">Lihat Dokumen</a>
+            </div>
+            <div>
+                <p class="p">Lampiran Dokumen 3 -</p>
+                <p>Matakuliah C | Tugas Bersama Perkuliahan Daring |</p>
+                <a href="">Lihat Dokumen</a>
+            </div>
+        </div>
+    </main>
+    
+</body>
+</html>
